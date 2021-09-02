@@ -1,0 +1,110 @@
+body {
+  color: #4E4E4E;
+}
+
+.navbar {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.bg-intro {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/intro-bg.jpg') no-repeat;
+  background-size: cover;
+}
+
+.progress {
+  background-color: #CDE1F8;
+  border-radius: 0;
+  height: .6rem;
+}
+
+.w-break {
+  word-break: break-all;
+}
+
+.title {
+  border-bottom: 3px solid #007bff;
+}
+
+.divider {
+  width: 80px;
+  border: 3px solid rgb(0, 123, 255);
+}
+
+.overlay {
+  border-radius: 6px;
+}
+
+.circle-icon {
+  width: 120px;
+  height: 120px;
+  line-height: 100px !important;
+  border-width: 10px;
+  border-style: solid;
+}
+
+.circle-icon-small {
+  width: 40px;
+  height: 40px;
+  line-height: 36px !important;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.bg-section {
+  background: linear-gradient(rgba(0, 123, 255, 0.5), rgba(0, 123, 255, 0.5)), url('./img/counters-bg.jpg') no-repeat center / cover fixed;
+}
+
+.custom-btn {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flex-img {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.card-footer-bg {
+  background-color: #EAE6E6;
+}
+
+@media (max-width: 767px) {
+  .navbar .navbar-nav {
+    background-color: #000;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .card-title {
+    font-size: 1.25rem;
+  }
+
+  .circle-icon-small {
+    width: 30px;
+    height: 30px;
+    line-height: 26px !important;
+    font-size: 12px;
+  }
+
+  .card-footer-bg .flex-img {
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+  }
+
+  .card-footer-bg p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  .px-custom {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
